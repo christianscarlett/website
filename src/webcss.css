@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 html, body {
     height: 100%;
@@ -12,6 +13,7 @@ html {
 
 body {
     font-family: Garamond, Georgia;
+    /* font-family: 'Crimson Text', serif; */
     font-size: 100%;
     /* background-size: cover; */
     background-image: url("./images/interlaced.png");
@@ -66,21 +68,27 @@ nav {
     background-color: rgb(25, 50, 75);
 }
 
+#homepage {
+    background-image: url('./images/lake.jpg');
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+}
+
 /* Left side carousel */
 .homepage-left {
     display: flex;
     padding: 0 !important;
 }
-#frontpage-photo {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-}
 
 /* Right side text */
 #maintext-container {
-    padding: 40% 5%;
+    /* padding: 10% 5%; */
+    padding-left: 12%;
+    padding-right: 50%;
+    padding-top: 8%;
     text-align: center;
+    color: lavender;
 }
 
 /* Footer Design */
@@ -90,6 +98,7 @@ footer {
     /* width: 100%; */
     bottom: 0;
     margin-bottom: 0;
+    height: 100px;
 }
 
 .footer-copyright{
@@ -115,3 +124,6 @@ p {
     font-size: 1.125rem;
 }
 
+/* .content {
+    min-height: calc(100vh - 100px);
+} */
