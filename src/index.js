@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.css';
+
+import { Helmet } from 'react-helmet';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
+    <Helmet>
+      <meta name="google-site-verification" content="pz0sIyotJMp33X3fkUWaHZMqPERaU8OQMLHv2foqKAw" />
+    </Helmet>
     <App />
-  </React.StrictMode>,
+  </React.Fragment>,
   document.getElementById('root')
 );
 
