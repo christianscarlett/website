@@ -7,8 +7,6 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
-import './webcss.css';
-
 function App() {
   return (
     <HashRouter>
