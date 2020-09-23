@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Navbar from '../components/Navbar';
 import Subpage from '../templates/Subpage';
-import Fretless from '../projects/Fretless';
+// import Fretless from '../projects/Fretless';
 
 class Projects extends Component {
   render() {
@@ -12,6 +12,11 @@ class Projects extends Component {
       title="Projects" 
       content = {(
         <ul>
+          <li>
+            <a class="project" href="https://swipemein.github.io" target="_blank" rel="noopener noreferrer">
+              SwipeMeIn
+            </a>
+          </li>
           <li>
             <a class="project" href="https://www.christianscarlett.com/go_fish" target="_blank" rel="noopener noreferrer">
               Go Fish
