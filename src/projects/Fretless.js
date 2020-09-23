@@ -18,6 +18,9 @@ class Fretless extends Component {
             <img src={require('../images/bass_dramatic_2.jpg')} alt="" style={{width: 60+'%'}}></img>
           </div>
           <p>The first step was to peel back the strings and pull out the frets. Pulling back the strings was routine and effortless; however, the frets were a different story. There are tools out there to pull frets, but considering I would only do this once, I figured a pair of side cutters would do the trick. </p>
+          <br/>
+          <br/>
+          <p>Updates soon...</p>
           </>
         )}
       />
