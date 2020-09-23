@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35a67b1f5aed71c7e744474bcdeb8bf4",
+    "revision": "6f6f6e48f1485877bfb5e6451faa322c",
     "url": "/website/index.html"
   },
   {
-    "revision": "79d1a23513f26a123084",
+    "revision": "1160f170dcf1b4a18b61",
     "url": "/website/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "8ffe2a82743c85c52c89",
-    "url": "/website/static/css/main.b455bb19.chunk.css"
+    "revision": "070e718b26db77a62616",
+    "url": "/website/static/css/main.a0c08f92.chunk.css"
   },
   {
-    "revision": "79d1a23513f26a123084",
-    "url": "/website/static/js/2.c554be0b.chunk.js"
+    "revision": "1160f170dcf1b4a18b61",
+    "url": "/website/static/js/2.891b6d58.chunk.js"
   },
   {
     "revision": "4ba1a1c11c57ed15aa68008707a3d6b4",
-    "url": "/website/static/js/2.c554be0b.chunk.js.LICENSE.txt"
+    "url": "/website/static/js/2.891b6d58.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8ffe2a82743c85c52c89",
-    "url": "/website/static/js/main.a56c6cd7.chunk.js"
+    "revision": "070e718b26db77a62616",
+    "url": "/website/static/js/main.ac697c6f.chunk.js"
   },
   {
     "revision": "b56fd8800aeaade8aa1a",
@@ -38,6 +38,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "19cfbd2000d0d74a7fd30b143ccbaaf4",
     "url": "/website/static/media/bass_dramatic_2.19cfbd20.jpg"
+  },
+  {
+    "revision": "81cd917b2c7a1eddd256f4338e07317f",
+    "url": "/website/static/media/dried_stained_cool.81cd917b.jpg"
+  },
+  {
+    "revision": "96096d67cb3ff1c366ba9252de93acb0",
+    "url": "/website/static/media/frets.96096d67.jpg"
   },
   {
     "revision": "2f7008e9b15fc8d1de54e077867c5cb2",
@@ -68,6 +76,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/resume.5a4692fd.pdf"
   },
   {
+    "revision": "da124aec1e093b290c8cce341cd5c7ec",
+    "url": "/website/static/media/ripped_out.da124aec.jpg"
+  },
+  {
+    "revision": "53f82b44962218d0880b8a757d822c89",
+    "url": "/website/static/media/sand_block.53f82b44.jpg"
+  },
+  {
+    "revision": "67d5b2da3a96d7e319e70d3887b9463b",
+    "url": "/website/static/media/sanded_neck.67d5b2da.jpg"
+  },
+  {
     "revision": "4577a5fafb59cc427d0cb1f19505024b",
     "url": "/website/static/media/sexy.4577a5fa.jpg"
   },
@@ -78,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "011e79e1765e63574413cf9e7dd3197a",
     "url": "/website/static/media/sprocket2.011e79e1.jpg"
+  },
+  {
+    "revision": "c04ffd5f2b70ad7bd97f77ed73dff83d",
+    "url": "/website/static/media/stained.c04ffd5f.jpg"
   },
   {
     "revision": "ad83d23ffdf659ef502605cf66d3c18d",
