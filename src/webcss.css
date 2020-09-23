@@ -135,11 +135,6 @@ p {
     overflow: clip;
 }
 
-.horizontal > img {
-    /* width: auto; */
-    /* flex-shrink: 1; */
-    /* width: 50%; */
-}
 
 /* .content {
     min-height: calc(100vh - 100px);
