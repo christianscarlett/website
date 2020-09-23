@@ -24,7 +24,12 @@ class Projects extends Component {
           </li>
           <li>
             <a class="project" href="#/projects/fretless">
-              Fretless
+              Fretless bass conversion
+            </a>
+          </li>
+          <li>
+            <a class="project" href="#/projects/puch">
+              Electric 1977 Puch Maxi
             </a>
           </li>
           <li>

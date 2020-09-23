@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Fretless from './projects/Fretless';
+import Puch from './projects/Puch';
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
 
         <Route exact={true} path='/projects/fretless' render={() => 
           <Fretless />
+        } />
+
+        <Route exact={true} path='/projects/puch' render={() => 
+          <Puch />
         } />
 
       </Switch>
