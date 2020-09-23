@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import Navbar from '../components/Navbar';
 import Subpage from '../templates/Subpage';
-// import Fretless from '../projects/Fretless';
 
 class Projects extends Component {
   render() {
