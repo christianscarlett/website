@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Post from '../templates/Post';
+import Post, {center} from '../templates/Post';
 
 class Puch extends Component {
   render() {
@@ -7,13 +7,16 @@ class Puch extends Component {
       <Post 
         title="Electric 1977 Puch Maxi" 
         content={(
-          <>
+          <div class='container'>
           <h1>Origins</h1>
           <p>
             When I was sent home from school for quarantine in March, my environment, like many others, changed drastically. No longer would I drive the van between ZBT and campus, walk to Dunkin, or stroll down dorm row. I was back at home now, where blocks of houses stood between my friends, family, and food. Having sold my high school car, I needed a way to get around. I was able to purchase a 1992 Toyota Celica GT from my dad's neighbor for a very good price, making aquantaince in the trasaction. Apparently the Celica wasn't the only thing he was looking to get rid of: a few weeks later, he gave us with three 70s Puch Maxi mopeds he was ready to throw away for free!
 
             <br/>
-            Insert pics
+            <div class='horizontal container'>
+              <img src={require('../images/puch/grimy.jpg')} />
+              <img src={require('../images/puch/me_and_cam.jpg')} />
+            </div>
             <br/>
 
             This was my moment. Ever since high school I wanted to build an electric motorcycle; now, with a little more money, knowledge, garage space, and time, I couldn't let this opportunity go.
@@ -39,7 +42,7 @@ class Puch extends Component {
             <br/>
             In the end I didn't implement the accessories. My internship had ramped up, I had other projects, and this one was going nowhere fast. But I did end up making a nice box to guard the battery and electronics. It's still good for a nice evening ride with my brother or my dad around the neighborhood. I topped out at 17 mph, and my brother got up to 25 on a slight decline, but even with a helmet I didn't trust it at higher speeds, if not only for my shoe soles (oh yeah, did I mention the breaks were shot?). I still consider this one a success, especially knowing now what I need to do for next time. 
           </p>
-          </>
+          </div>
         )}
       />
     );

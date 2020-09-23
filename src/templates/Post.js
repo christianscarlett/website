@@ -4,6 +4,9 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "../subpage.css";
 
+export const center = {width: 50+'%', display: 'block', "margin-left": 'auto', "margin-right": 'auto', "margin-top": 0, "margin-bottom": 0};
+export const rotate = {transform: 'rotate(270deg)'};
+
 class Post extends Component {
   render() {
     return (
