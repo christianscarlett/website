@@ -6,7 +6,7 @@ class Footer extends Component {
       <footer class="footer font-small py-3" id="footer">
         <div class="row-12">
           <div class="container text-center">
-            <a href="https://www.facebook.com/traF2000" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.facebook.com/chriscar2000" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
             <a href="https://twitter.com/ChriScar2000" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
             <a href="https://www.instagram.com/christian_scarlett/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
             <a href="https://www.linkedin.com/in/christianscarlett/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
