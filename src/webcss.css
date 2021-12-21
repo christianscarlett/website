@@ -60,10 +60,17 @@ body {
 .subpage-heading {
     flex: 1;
     height: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+.subpage-title > .footer {
+    position: fixed;
 }
 
 .subpage-content {
     flex: 4;
+    overflow: auto;
 }
 
 .subpage-heading {
