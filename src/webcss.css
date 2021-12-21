@@ -146,15 +146,24 @@ nav {
 }
 
 /* Footer Design */
+.nocolor {
+    background-color: rgba(0,0,0,0);
+    color: black;
+}
+
 footer {
     background-color: rgb(25, 50, 75);
     bottom: 0;
     margin-bottom: 0;
-    height: 100px;
+    color: white;
 }
 
 .footer-copyright{
-    color: white;
+    /* color: white; */
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 footer a {

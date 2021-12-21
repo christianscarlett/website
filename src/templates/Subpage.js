@@ -20,9 +20,7 @@ class Subpage extends Component {
               </h1>
               <hr class="separator" />
             </div>
-            <div>
-              <h1>footer</h1>
-            </div>
+            <Footer nocolor />
           </div>
           <div class='subpage-content'>
             {this.props.content}
