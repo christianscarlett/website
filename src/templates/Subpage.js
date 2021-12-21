@@ -9,22 +9,23 @@ class Subpage extends Component {
 
       <Page 
       navbar={this.props.navbar}
+      footer={false}
       content={(
         <>
-        <div class="subpage-content container-fluid" id="page-center">
-          <div class='row'>
-            <div class='title-col col-2'>
+        <div class='subpage'>
+          <div class='subpage-title'>
+            <div class='subpage-heading'>
               <h1>
                 {this.props.title}
               </h1>
               <hr class="separator" />
-              <div class='test'></div>
             </div>
-            <div class='col'>
-              <div class="subpage-text">
-                {this.props.content}
-              </div>
+            <div>
+              <h1>footer</h1>
             </div>
+          </div>
+          <div class='subpage-content'>
+            {this.props.content}
           </div>
         </div>
         </>

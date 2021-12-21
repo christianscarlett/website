@@ -8,7 +8,7 @@ class Page extends Component {
       {this.props.navbar}
       <div class='page'>
         {this.props.content}
-        <Footer />
+        {this.props.footer ? <Footer /> : <div></div>}
       </div>
       </>
     );
