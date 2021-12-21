@@ -64,6 +64,15 @@ body {
     position: fixed;
 }
 
+.subpage-heading > h1, h4 {
+    margin: 0;
+}
+
+.subpage-heading > hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .subpage-title > .footer {
     position: fixed;
 }

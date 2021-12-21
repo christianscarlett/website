@@ -19,6 +19,9 @@ class Subpage extends Component {
                 {this.props.title}
               </h1>
               <hr class="separator" />
+              <h4>
+                {this.props.subtitle ?? ''}
+              </h4>
             </div>
             <Footer nocolor />
           </div>
