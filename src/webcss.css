@@ -188,12 +188,15 @@ nav:hover .nav-item .active {
 
 /* Card */
 .card-col {
-    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .card {
     border-radius: 0;
     margin-bottom: 10px;
     border-color: rgb(25, 50, 75);
+    width: 90%;
+    height: 90%;
 }
 .card-img-container {
     /* max-height: 100px; */
