@@ -104,6 +104,14 @@ body {
     align-items: center;
 }
 
+.resume-embed {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 /* Main Page */
 
 .row {
