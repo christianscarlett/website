@@ -26,7 +26,14 @@ class Subpage extends Component {
             <Footer nocolor />
           </div>
           <div class='subpage-content'>
-            {this.props.content}
+            <div class='diamonds'>
+              <p>&#9670;</p>
+              <p>&#9670;</p>
+              <p>&#9670;</p>
+            </div>
+            <div>
+              {this.props.content}
+            </div>
           </div>
         </div>
         </>
