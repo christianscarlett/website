@@ -193,6 +193,7 @@ nav:hover .nav-item .active {
 .card {
     border-radius: 0;
     margin-bottom: 10px;
+    border-color: rgb(25, 50, 75);
 }
 .card-img-container {
     /* max-height: 100px; */
@@ -201,6 +202,14 @@ nav:hover .nav-item .active {
 }
 .card-img-top {
     border-radius: 0;
+}
+.card-body {
+    padding: 0.75rem 1rem;
+    background-color: lavender;
+}
+.card-footer {
+    background-color: lavender;
+    padding: 0.5rem 1rem;
 }
 
 

@@ -10,11 +10,8 @@ class ProjectCard extends Component {
           <img class='card-img-top' src={cardimg} alt='cardtop' />
         </div>
         <div class='card-body'>
-          <h5 class='card-title'>{this.props.title}</h5>
+          <h5 class='card-title'><a href={'#/projects/'+this.props.postLink}>{this.props.title}</a></h5>
           <p class='card-text'>Some text for a project haha.</p>
-        </div>
-        <div class='card-footer'>
-          <a href={'#/projects/'+this.props.postLink}>Explore</a>
         </div>
       </div>
     );
