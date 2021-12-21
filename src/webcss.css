@@ -15,7 +15,7 @@ html {
 body {
     font-family: 'Crimson Text', serif !important;
     /* font-family: 'Cairo', sans-serif !important; */
-    font-size: 100%;
+    font-size: 1.1em;
     background-image: url("./images/interlaced.png");
     background-attachment: fixed;
 }
