@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import "../subpage.css";
+// import "../subpage.css";
 
 class Post extends Component {
   render() {

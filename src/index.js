@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import './webcss.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import './webcss.css';
 
 import { Helmet } from 'react-helmet';
 

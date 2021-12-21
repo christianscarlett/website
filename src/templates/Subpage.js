@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Footer from '../components/Footer';
-import '../subpage.css';
 
 class Subpage extends Component {
 
@@ -8,18 +7,18 @@ class Subpage extends Component {
     return (
       <>
       {this.props.navbar}
-      <div class="container-fluid" id="page-center">
-        <div class="container-fluid">
-          <div class="subpage-header">
+      <div class="subpage-content container-fluid" id="page-center">
+        <div class='row'>
+          <div class='title-col col-2'>
             <h1>
               {this.props.title}
             </h1>
+            <hr class="separator" />
           </div>
-        </div>
-        <hr class="separator" />
-        <div class="container">
-          <div class="subpage-text">
-            {this.props.content}
+          <div class='col'>
+            <div class="subpage-text">
+              {this.props.content}
+            </div>
           </div>
         </div>
       </div>
