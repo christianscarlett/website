@@ -49,9 +49,6 @@ body {
     text-align: center;
 }
 
-.title-col > h1, hr {
-    flex: 1;
-}
 
 
 /* Main Page */
