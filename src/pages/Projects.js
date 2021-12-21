@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 import Navbar from '../components/Navbar';
 import Subpage from '../templates/Subpage';
@@ -20,6 +21,10 @@ class Projects extends Component {
     ));
 
     return (
+      <>
+      <Helmet>
+        <title>Christian Scarlett - Projects</title>
+      </Helmet>
       <Subpage 
       navbar={<Navbar projects />}
       title="Projects" 
@@ -32,6 +37,7 @@ class Projects extends Component {
         </div>
         </>
       )} />
+      </>
     );
   }
 }

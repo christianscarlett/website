@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 import Navbar from '../components/Navbar';
 import Subpage from '../templates/Subpage';
@@ -7,6 +8,10 @@ import Resume from '../documents/ChristianScarlettResume2021.pdf';
 class About extends Component {
   render() {
     return (
+      <>
+      <Helmet>
+        <title>Christian Scarlett - About</title>
+      </Helmet>
       <Subpage 
         navbar={<Navbar about />} 
         title="About Me" 
@@ -27,6 +32,7 @@ class About extends Component {
           </>
         )}
       />
+      </>
     );
   }
 }
