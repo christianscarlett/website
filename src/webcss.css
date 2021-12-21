@@ -17,6 +17,7 @@ body {
     /* font-family: 'Cairo', sans-serif !important; */
     font-size: 100%;
     background-image: url("./images/interlaced.png");
+    background-attachment: fixed;
 }
 
 /* Framework */
@@ -110,32 +111,56 @@ a h2 {
 }
 
 #nav-title {
+    /* color: rgb(25, 50, 75); */
     text-decoration: none;
 }
 
-.nav-link {
-    color: white;
-    text-decoration: none;
-}
-
-.nav-item .active {
-    background-color: lavender;
+nav h2 {
     color: rgb(25, 50, 75);
-    opacity: 1;
-}
-
-.nav-link {
     transition: 0.3s;
 }
 
+
+.nav-link {
+    /* color: lavender; */
+    border: 2px solid rgba(0,0,0,0);
+    color: rgb(25, 50, 75);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-item .active {
+    /* color: rgb(25, 50, 75); */
+    border-color: rgb(25, 50, 75);
+
+}
+
 .nav-link:hover {
-    background-color: lavender;
+    border-color: lavender;
     color: rgb(25, 50, 75);
     opacity: 1;
 }
 
 nav {
+    background-color: rgba(230, 230, 250, .5);
+    /* background-color: lavender; */
+    transition: 0.3s;
+}
+
+nav:hover {
     background-color: rgb(25, 50, 75);
+}
+
+nav:hover h2 {
+    color: lavender;
+}
+
+nav:hover .nav-link {
+    color: lavender;
+}
+
+nav:hover .nav-item .active {
+    border-color: lavender;
 }
 
 #homepage {
@@ -195,57 +220,3 @@ hr.separator {
     text-align: center;
     width: 50%;
 }
-/* 
-p {
-    font-size: 1.125rem;
-}
-
-.horizontal {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    overflow: clip;
-} */
-
-
-/* .content {
-    min-height: calc(100vh - 100px);
-} */
-
-/* fun */
-/* .fun-button {
-    background-color: lavender;
-    border: none;
-    color: rgb(25, 50, 75);
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 25%;
-} */
-
-/* .counter {
-    margin: 5%;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-/* 
-.swearjar {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-} */
-/* 
-.num-display {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
