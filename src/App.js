@@ -8,6 +8,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Fretless from './projects/Fretless';
 import Puch from './projects/Puch';
+import SwearJar from './projects/SwearJar';
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
 
         <Route exact={true} path='/projects/puch' render={() => 
           <Puch />
+        } />
+
+        <Route exact={true} path='/swearjar' render={() => 
+          <SwearJar />
         } />
 
       </Switch>
