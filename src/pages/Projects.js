@@ -2,39 +2,35 @@ import React, { Component } from 'react';
 
 import Navbar from '../components/Navbar';
 import Subpage from '../templates/Subpage';
+import ProjectCard from '../components/ProjectCard';
 
 class Projects extends Component {
   render() {
+    const projects = [
+      {title:"SwipeMeIn", postLink:"swipemein", link:"https://swipemein.github.io"},
+      {title:"Go Fish", postLink:"gofish", link:"https://www.christianscarlett.com/go_fish"},
+      {title:"Fretless Bass Conversion", postLink:"fretless", link:null},
+      {title:"Electric 1977 Puch Maxi", postLink:"puch", link:null},
+    ];
+
+    const displayProjects = projects.map(project => (
+      <div class='card-col col-md-6'>
+        <ProjectCard title={project.title} postLink={project.postLink} link={project.link} />
+      </div>
+    ));
+
     return (
       <Subpage 
       navbar={<Navbar projects />}
       title="Projects" 
       content = {(
-        <ul>
-          <li>
-            <a class="project" href="https://swipemein.github.io" target="_blank" rel="noopener noreferrer">
-              SwipeMeIn
-            </a>
-          </li>
-          <li>
-            <a class="project" href="https://www.christianscarlett.com/go_fish" target="_blank" rel="noopener noreferrer">
-              Go Fish
-            </a>
-          </li>
-          <li>
-            <a class="project" href="#/projects/fretless">
-              Fretless bass conversion
-            </a>
-          </li>
-          <li>
-            <a class="project" href="#/projects/puch">
-              Electric 1977 Puch Maxi
-            </a>
-          </li>
-          <li>
-            <p class="project">More coming soon...</p>
-          </li>
-        </ul>
+        <>
+        <div class='project-cards container-fluid'>
+          <div class='row'>
+            {displayProjects}
+          </div>
+        </div>
+        </>
       )} />
     );
   }

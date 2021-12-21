@@ -170,6 +170,27 @@ nav:hover .nav-item .active {
     height: 100vh;
 }
 
+
+
+/* Card */
+.card-col {
+    align-items: center;
+}
+.card {
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+.card-img-container {
+    /* max-height: 100px; */
+    height: 200px;
+    overflow: hidden;
+}
+.card-img-top {
+    border-radius: 0;
+}
+
+
+
 /* Left side carousel */
 .homepage-left {
     display: flex;
