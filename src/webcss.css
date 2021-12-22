@@ -16,7 +16,7 @@ body {
     font-family: 'Crimson Text', serif !important;
     /* font-family: 'Cairo', sans-serif !important; */
     font-size: 1.1em;
-    background-image: url("./images/interlaced.png");
+    /* background-image: url("./images/interlaced.png"); */
     background-attachment: fixed;
 }
 
@@ -174,11 +174,11 @@ nav:hover {
 }
 
 nav:hover h2 {
-    color: lavender;
+    color: white;
 }
 
 nav:hover .nav-link {
-    color: lavender;
+    color: white;
 }
 
 nav:hover .nav-item .active {
@@ -202,7 +202,8 @@ nav:hover .nav-item .active {
 .card {
     border-radius: 0;
     margin-bottom: 10px;
-    border-color: rgb(25, 50, 75);
+    border-color: rgba(230, 230, 250, 0.5);
+    border-width: 2px;
     width: 90%;
     height: 90%;
 }
@@ -216,7 +217,12 @@ nav:hover .nav-item .active {
 }
 .card-body {
     padding: 0.75rem 1rem;
-    background-color: rgba(230, 230, 250, 0.3);
+    /* background-color: rgba(230, 230, 250, 0.3); */
+    transition: 0.3s;
+}
+.card-body:hover {
+    background-color: rgba(230, 230, 250, 0.5);
+
 }
 .card-footer {
     background-color: lavender;
