@@ -2,12 +2,14 @@ import React from 'react';
 import {HashRouter, Route, Switch} from 'react-router-dom';
 
 import Homepage from './pages/Homepage';
+import Post from './templates/Post';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Fretless from './projects/Fretless';
-import Puch from './projects/Puch';
 import SwearJar from './projects/SwearJar';
+
+import FretlessData from './projects/FretlessData';
+import PuchData from './projects/PuchData';
 
 function App() {
   return (
@@ -27,11 +29,11 @@ function App() {
         } />
 
         <Route exact={true} path='/projects/fretless' render={() => 
-          <Fretless />
+          <Post data={FretlessData} />
         } />
 
         <Route exact={true} path='/projects/puch' render={() => 
-          <Puch />
+          <Post data={PuchData} />
         } />
 
         <Route exact={true} path='/swearjar' render={() => 

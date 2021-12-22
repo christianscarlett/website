@@ -11,11 +11,11 @@ class Post extends Component {
       <Subpage 
       navbar={<Navbar projects />}
       title={'Projects'}
-      subtitle={this.props.title}
+      subtitle={this.props.data.title}
       content={(
       <div class="container-fluid" id="page-center">
         <div class="post-text">
-          {this.props.content}
+          {this.props.data.content}
         </div>
       </div>
       )}
