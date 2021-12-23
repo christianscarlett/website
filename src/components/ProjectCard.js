@@ -13,7 +13,7 @@ class ProjectCard extends Component {
         </div>
         <div className='card-body'>
           <h5 className='card-title'><a href={'#/projects/'+project.postLink}>{project.title}</a></h5>
-          <p className='card-text'>Some text for a project haha.</p>
+          <p className='card-text'>{project.blurb}</p>
         </div>
       </div>
     );

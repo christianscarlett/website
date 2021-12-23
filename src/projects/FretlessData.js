@@ -7,6 +7,7 @@ const data = {
   postLink: "fretless", 
   link: null,
   img: photo,
+  blurb: 'My 5-string bass, gone fretless.',
   content: (
     <div className='container'>
       <p>

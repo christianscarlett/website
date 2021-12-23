@@ -7,6 +7,7 @@ const data = {
   postLink: "puch", 
   link: null,
   img: photo,
+  blurb: "An electric moped I built over summer 2020.",
   content: (
     <div className='container'>
     <h1>Origins</h1>
