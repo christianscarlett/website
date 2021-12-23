@@ -20,13 +20,6 @@ body {
     background-attachment: fixed;
 }
 
-i {
-    color: rgb(25, 50, 75);
-}
-
-footer i:hover {
-    color: lavender;
-}
 
 /* Framework */
 #root {
@@ -153,6 +146,10 @@ a {
     text-decoration: none !important;
 }
 
+.contact-method-wrapper {
+    margin-bottom: 15px;
+}
+
 .contact-method-wrapper div {
     color: black;
 }
@@ -178,6 +175,7 @@ a {
 }
 
 .contact-icon i {
+    color: rgb(25, 50, 75);
     font-size: 40px;
 }
 
