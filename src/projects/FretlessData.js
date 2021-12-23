@@ -12,9 +12,11 @@ const data = {
     <div className='container'>
       <p>
         I was inspired to do this project by a variety of factors: I thought it'd be fun, I had just been sent home from college for quarantine, and I've always preferred the feel and expression enabled by the fretless nature of the upright bass. Plus, it's pretty cool and the guitar was cheap. So I looked up a few guides on the internet and got cracking.
-        <div className='horizontal container' style={{transform: 'rotate(270deg)'}}>
+        <br/>
+        <div className='horizontal container'>
           <img src={require('../images/bass/bass_before.jpg')} alt="" style={{width: 50+"%"}}></img> 
         </div>
+        <br/>
         This is my bass guitar, a Washburn Bantam 5-string I picked up from Guitar Center in Boston for under $100. At the time I just wanted something to noodle on and experiment with the 5th string. It's in ok condition, and plays fine, but has a few chips here and there, so I don't mind adding a few of my own.
         <br/>
         <br/>
