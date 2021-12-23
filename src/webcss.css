@@ -171,6 +171,11 @@ nav h2 {
     justify-content: right;
 }
 
+.navbar-toggler {
+    border-color: rgba(0,0,0,0);
+    background-color: rgba(25, 50, 75, 0.2);
+}
+
 .nav-link {
     /* color: lavender; */
     border: 2px solid rgba(0,0,0,0);
