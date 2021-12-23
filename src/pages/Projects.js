@@ -19,7 +19,7 @@ class Projects extends Component {
 
     const displayProjects = projects.map(project => (
       <div class='card-col col-md-6'>
-        <ProjectCard title={project.title} postLink={project.postLink} link={project.link} />
+        <ProjectCard project={project} />
       </div>
     ));
 
