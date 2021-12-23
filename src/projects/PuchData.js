@@ -1,10 +1,12 @@
 import React from 'react';
 import video from '../images/puch/video.mp4';
+import photo from '../images/puch/puch.jpg';
 
 const data = {
   title: "Electric 1977 Puch Maxi",
-  postLink: "fretless", 
+  postLink: "puch", 
   link: null,
+  img: photo,
   content: (
     <div className='container'>
     <h1>Origins</h1>

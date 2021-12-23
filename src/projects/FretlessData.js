@@ -1,9 +1,12 @@
 import React from 'react';
 
+import photo from '../images/bass/preview.jpg';
+
 const data = {
   title: "Fretless Bass Conversion", 
   postLink: "fretless", 
   link: null,
+  img: photo,
   content: (
     <div className='container'>
       <p>
