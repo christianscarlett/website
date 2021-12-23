@@ -20,7 +20,7 @@ function Homepage() {
                   Sup!
               </h1>
               <p>
-                  This is my website to showcase my projects and contact to those interested, gaining web design skills along the way.<br/>
+                  This is my website to showcase and/or host my projects. Feel free to take a look!<br/>
               </p>
             </div>
           </div>
