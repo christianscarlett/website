@@ -10,10 +10,10 @@ class ContactMethod extends Component {
   render() {
     return (
       <>
-      <a class='contact-method-wrapper' href={this.props.link} target="_blank" rel="noopener noreferrer">
-        <div class='contact-method'>
-          <a class='contact-icon' href={this.props.link} target="_blank" rel="noopener noreferrer">{this.props.icon}</a>
-          <div class='contact-description'>
+      <a className='contact-method-wrapper' href={this.props.link} target="_blank" rel="noopener noreferrer">
+        <div className='contact-method'>
+          <span className='contact-icon'>{this.props.icon}</span>
+          <div className='contact-description'>
             <h5>{this.props.title}</h5>
             <p>{this.props.text}</p>
           </div>
@@ -42,8 +42,8 @@ class Contact extends Component {
             </p>
             <div className="container-fluid">
               <div className="contact-icons">
-                <ContactMethod link='mailto:christianscarlett21@gmail.com' icon={(<i class="fa fa-envelope"></i>)} title='Email' text='christianscarlett21@gmail.com' />
-                <ContactMethod link='mailto:cjscar@mit.edu' icon={(<img class='mit-icon' src={MITLogo} alt='MIT Logo' />)} title='MIT Email' text='cjscar@mit.edu' />
+                <ContactMethod link='mailto:christianscarlett21@gmail.com' icon={(<i className="fa fa-envelope"></i>)} title='Email' text='christianscarlett21@gmail.com' />
+                <ContactMethod link='mailto:cjscar@mit.edu' icon={(<img className='mit-icon' src={MITLogo} alt='MIT Logo' />)} title='MIT Email' text='cjscar@mit.edu' />
                 <ContactMethod link='https://www.facebook.com/chriscar2000' icon={(<i className="fa fa-facebook"></i>)} title='Facebook' />
                 <ContactMethod link='https://twitter.com/ChriScar2000' icon={(<i className="fa fa-twitter"></i>)} title='Twitter' />
                 <ContactMethod link='https://www.instagram.com/christian_scarlett/' icon={(<i className="fa fa-instagram"></i>)} title='Instagram' />

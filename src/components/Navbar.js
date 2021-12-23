@@ -25,14 +25,14 @@ class Navbar extends Component {
 
 	render() {
 		return (
-			<nav class="navbar sticky-top navbar-expand-md navbar-dark">
+			<nav className="navbar sticky-top navbar-expand-md navbar-dark">
 				<a id='nav-title' href="#/"><h2>Christian Scarlett</h2></a>
 
-				<button class="navbar-toggler" onClick={() => this.displayMenu()}>
-					<span class="navbar-toggler-icon"></span>
+				<button className="navbar-toggler" onClick={() => this.displayMenu()}>
+					<span className="navbar-toggler-icon"></span>
 				</button>
 
-				<div class="collapse navbar-collapse" id='navbar-list'>
+				<div className="collapse navbar-collapse" id='navbar-list'>
 					<ul className="nav navbar-right">
 						<li className="nav-item">
 							<a className={"nav-link" + (this.state.index ? " active" : "")} href="#/">
