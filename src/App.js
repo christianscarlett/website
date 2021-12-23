@@ -12,6 +12,15 @@ import FretlessData from './projects/FretlessData';
 import PuchData from './projects/PuchData';
 
 function App() {
+  const projects = [
+    FretlessData,
+    PuchData,
+  ];
+  const projectRoutes = projects.map(project => (
+    <Route exact={true} path={'/projects/'+project.postLink} key={project.title} render={() => 
+      <Post data={project} />
+    } />
+  ));
   return (
     <HashRouter>
       <Switch>
@@ -28,14 +37,8 @@ function App() {
           <Contact />
         } />
 
-        <Route exact={true} path='/projects/fretless' render={() => 
-          <Post data={FretlessData} />
-        } />
-
-        <Route exact={true} path='/projects/puch' render={() => 
-          <Post data={PuchData} />
-        } />
-
+        {projectRoutes}
+        
         <Route exact={true} path='/swearjar' render={() => 
           <SwearJar />
         } />
