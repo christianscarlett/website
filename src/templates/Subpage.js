@@ -36,6 +36,27 @@ class Subpage extends Component {
             </div>
           </div>
         </div>
+        
+        <div className='subpage-mobile'>
+          <div className='subpage-heading-mobile'>
+            <h1>
+              {this.props.title}
+            </h1>
+            <hr className="separator" />
+            <h4>
+              {this.props.subtitle ?? ''}
+            </h4>
+          </div>
+          <div className='diamonds'>
+            <p>&#9670;</p>
+            <p>&#9670;</p>
+            <p>&#9670;</p>
+          </div>
+          <div>
+            {this.props.content}
+          </div>
+          <Footer nocolor />
+        </div>
         </>
         )}
       />

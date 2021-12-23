@@ -104,6 +104,30 @@ body {
     align-items: center;
 }
 
+.subpage-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subpage-heading-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .subpage {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .subpage-mobile {
+        display: none;
+    }
+}
+
 .resume-embed {
     /* display: flex; */
     /* justify-content: center; */
