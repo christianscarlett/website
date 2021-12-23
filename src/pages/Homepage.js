@@ -13,9 +13,9 @@ function Homepage() {
       </Helmet>
       <div id='homepage'>
         <Navbar index />
-        <div class="container-fluid content">
-          <div class="row">
-            <div class="container-fluid" id="maintext-container">
+        <div className="container-fluid content">
+          <div className="row">
+            <div className="container-fluid" id="maintext-container">
               <h1 id="hello">
                   Sup!
               </h1>

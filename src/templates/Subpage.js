@@ -12,21 +12,21 @@ class Subpage extends Component {
       footer={false}
       content={(
         <>
-        <div class='subpage'>
-          <div class='subpage-title'>
-            <div class='subpage-heading'>
+        <div className='subpage'>
+          <div className='subpage-title'>
+            <div className='subpage-heading'>
               <h1>
                 {this.props.title}
               </h1>
-              <hr class="separator" />
+              <hr className="separator" />
               <h4>
                 {this.props.subtitle ?? ''}
               </h4>
             </div>
             <Footer nocolor />
           </div>
-          <div class='subpage-content'>
-            <div class='diamonds'>
+          <div className='subpage-content'>
+            <div className='diamonds'>
               <p>&#9670;</p>
               <p>&#9670;</p>
               <p>&#9670;</p>

@@ -6,7 +6,7 @@ class Page extends Component {
     return (
       <>
       {this.props.navbar}
-      <div class='page'>
+      <div className='page'>
         {this.props.content}
         {this.props.footer ? <Footer /> : <div></div>}
       </div>

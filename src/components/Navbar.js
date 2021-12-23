@@ -15,33 +15,33 @@ class Navbar extends Component {
 
 	render() {
 		return (
-			<nav class="navbar sticky-top navbar-default" role="navigation">
-				<div class="container-fluid">
-					<ul class="nav navbar-left">
-						<li class="nav-item">
+			<nav className="navbar sticky-top navbar-default" role="navigation">
+				<div className="container-fluid">
+					<ul className="nav navbar-left">
+						<li className="nav-item">
 							<a href="#/" id='nav-title'>
 								<h2>Christian Scarlett</h2>
 							</a>
 						</li>
 					</ul>
-					<ul class="nav navbar-right">
-						<li class="nav-item">
-							<a class={"nav-link" + (this.state.index ? " active" : "")} href="#/">
+					<ul className="nav navbar-right">
+						<li className="nav-item">
+							<a className={"nav-link" + (this.state.index ? " active" : "")} href="#/">
                 Home
               </a>
 						</li>
-						<li class="nav-item">
-							<a class={"nav-link" + (this.state.projects ? " active" : "")} href="#/projects">
+						<li className="nav-item">
+							<a className={"nav-link" + (this.state.projects ? " active" : "")} href="#/projects">
 								Projects
 							</a>
 						</li>
-						<li class="nav-item">
-							<a class={"nav-link" + (this.state.about ? " active" : "")} href="#/about">
+						<li className="nav-item">
+							<a className={"nav-link" + (this.state.about ? " active" : "")} href="#/about">
                 About
               </a>
 						</li>
-						<li class="nav-item">
-							<a class={"nav-link" + (this.state.contact ? " active" : "")} href="#/contact">
+						<li className="nav-item">
+							<a className={"nav-link" + (this.state.contact ? " active" : "")} href="#/contact">
                 Contact
               </a>
 						</li>

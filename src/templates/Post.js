@@ -13,8 +13,8 @@ class Post extends Component {
       title={'Projects'}
       subtitle={this.props.data.title}
       content={(
-      <div class="container-fluid" id="page-center">
-        <div class="post-text">
+      <div className="container-fluid" id="page-center">
+        <div className="post-text">
           {this.props.data.content}
         </div>
       </div>

@@ -18,8 +18,8 @@ class Projects extends Component {
     ];
 
     const displayProjects = projects.map(project => (
-      <div class='card-col col-md-6'>
-        <ProjectCard project={project} />
+      <div className='card-col col-md-6' key={project.title}>
+        <ProjectCard project={project}  />
       </div>
     ));
 
@@ -33,8 +33,8 @@ class Projects extends Component {
       title="Projects" 
       content = {(
         <>
-        <div class='project-cards container-fluid'>
-          <div class='row'>
+        <div className='project-cards container-fluid'>
+          <div className='row'>
             {displayProjects}
           </div>
         </div>

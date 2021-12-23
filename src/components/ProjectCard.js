@@ -6,13 +6,13 @@ class ProjectCard extends Component {
   render() {
     const project = this.props.project;
     return (
-      <div class='project-card card'>
-        <div class='card-img-container'>
-          <img class='card-img-top' src={cardimg} alt='cardtop' />
+      <div className='project-card card'>
+        <div className='card-img-container'>
+          <img className='card-img-top' src={cardimg} alt='cardtop' />
         </div>
-        <div class='card-body'>
-          <h5 class='card-title'><a href={'#/projects/'+project.postLink}>{project.title}</a></h5>
-          <p class='card-text'>Some text for a project haha.</p>
+        <div className='card-body'>
+          <h5 className='card-title'><a href={'#/projects/'+project.postLink}>{project.title}</a></h5>
+          <p className='card-text'>Some text for a project haha.</p>
         </div>
       </div>
     );
