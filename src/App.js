@@ -8,11 +8,15 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import SwearJar from './projects/SwearJar';
 
+import SwipemeinData from './projects/SwipemeinData';
+import GofishData from './projects/GofishData';
 import FretlessData from './projects/FretlessData';
 import PuchData from './projects/PuchData';
 
 function App() {
   const projects = [
+    SwipemeinData,
+    GofishData,
     FretlessData,
     PuchData,
   ];

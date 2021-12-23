@@ -5,14 +5,16 @@ import Navbar from '../components/Navbar';
 import Subpage from '../templates/Subpage';
 import ProjectCard from '../components/ProjectCard';
 
+import SwipemeinData from '../projects/SwipemeinData';
+import GofishData from '../projects/GofishData';
 import FretlessData from '../projects/FretlessData';
 import PuchData from '../projects/PuchData';
 
 class Projects extends Component {
   render() {
     const projects = [
-      {title:"SwipeMeIn", postLink:"swipemein", link:"https://swipemein.github.io"},
-      {title:"Go Fish", postLink:"gofish", link:"https://www.christianscarlett.com/go_fish"},
+      SwipemeinData,
+      GofishData,
       FretlessData,
       PuchData,
     ];

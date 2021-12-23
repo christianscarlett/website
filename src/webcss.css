@@ -211,6 +211,15 @@ nav:hover .nav-item .active {
     /* max-height: 100px; */
     height: 200px;
     overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-container img {
+    /* flex-shrink: 0; */
+    min-width: 100%;
+    min-height: 100%
 }
 .card-img-top {
     border-radius: 0;
