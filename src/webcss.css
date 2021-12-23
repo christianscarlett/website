@@ -20,6 +20,14 @@ body {
     background-attachment: fixed;
 }
 
+i {
+    color: rgb(25, 50, 75);
+}
+
+footer i:hover {
+    color: lavender;
+}
+
 /* Framework */
 #root {
     display: flex;
@@ -136,8 +144,60 @@ body {
     padding-right: 25px;
 }
 
-/* Main Page */
+.contact-icons {
+    display: flex;
+    flex-direction: column;
+}
 
+a {
+    text-decoration: none !important;
+}
+
+.contact-method-wrapper div {
+    color: black;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+}
+
+.contact-method:hover {
+    background-color: rgba(230, 230, 250, .5);
+}
+
+.contact-method > div {
+    width: 100%;
+}
+
+.contact-icon {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icon i {
+    font-size: 40px;
+}
+
+.mit-icon {
+    width: 40px;
+}
+
+.contact-description {
+    margin-left: 10px;
+}
+
+.contact-description h5 {
+    margin: 0;
+}
+
+.contact-description p {
+    margin: 0;
+}
+
+/* Main Page */
 .row {
     margin: 0;
 }
