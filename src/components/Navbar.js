@@ -13,17 +13,26 @@ class Navbar extends Component {
 		}
 	}
 
+	displayMenu() {
+		console.log('in');
+    if (document.getElementById("navbar-list").classList.contains("show")) {
+        document.getElementById("navbar-list").classList.remove("show")
+    }
+    else {
+        document.getElementById("navbar-list").classList.add("show")
+    }
+	}
+
 	render() {
 		return (
-			<nav className="navbar sticky-top navbar-default" role="navigation">
-				<div className="container-fluid">
-					<ul className="nav navbar-left">
-						<li className="nav-item">
-							<a href="#/" id='nav-title'>
-								<h2>Christian Scarlett</h2>
-							</a>
-						</li>
-					</ul>
+			<nav class="navbar sticky-top navbar-expand-md navbar-dark">
+				<a id='nav-title' href="#/"><h2>Christian Scarlett</h2></a>
+
+				<button class="navbar-toggler" onClick={() => this.displayMenu()}>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id='navbar-list'>
 					<ul className="nav navbar-right">
 						<li className="nav-item">
 							<a className={"nav-link" + (this.state.index ? " active" : "")} href="#/">
@@ -47,7 +56,7 @@ class Navbar extends Component {
 						</li>
 					</ul>
 				</div>
-			</nav>  
+			</nav>
 		);
 	}
 }

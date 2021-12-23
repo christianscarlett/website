@@ -164,8 +164,12 @@ a h2 {
 nav h2 {
     color: rgb(25, 50, 75);
     transition: 0.3s;
+    margin-bottom: 0;
 }
 
+.navbar-collapse {
+    justify-content: right;
+}
 
 .nav-link {
     /* color: lavender; */
