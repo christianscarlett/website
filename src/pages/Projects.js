@@ -10,6 +10,7 @@ import GofishData from '../projects/GofishData';
 import FretlessData from '../projects/FretlessData';
 import PuchData from '../projects/PuchData';
 import SoundcloudData from '../projects/SoundcloudData';
+import MazeData from '../projects/MazeData';
 
 class Projects extends Component {
   render() {
@@ -19,6 +20,7 @@ class Projects extends Component {
       FretlessData,
       PuchData,
       SoundcloudData,
+      MazeData,
     ];
 
     const displayProjects = projects.map(project => (

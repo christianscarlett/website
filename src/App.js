@@ -13,6 +13,7 @@ import GofishData from './projects/GofishData';
 import FretlessData from './projects/FretlessData';
 import PuchData from './projects/PuchData';
 import SoundcloudData from './projects/SoundcloudData';
+import MazeData from './projects/MazeData';
 
 function App() {
   const projects = [
@@ -21,6 +22,7 @@ function App() {
     FretlessData,
     PuchData,
     SoundcloudData,
+    MazeData,
   ];
   const projectRoutes = projects.map(project => (
     <Route exact={true} path={'/projects/'+project.postLink} key={project.title} render={() => 
