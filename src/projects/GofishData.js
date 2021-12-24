@@ -22,7 +22,7 @@ const data = {
       <li>The game ends when either the player's or the AI's hands are empty.</li>
     </ul>
     <div className='center'>
-      <img src={game} style={{width:80+'%'}} />
+      <img src={game} style={{width:80+'%'}} alt='Go Fish' />
     </div>
     <br/>
     </div>

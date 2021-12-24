@@ -9,6 +9,7 @@ import SwipemeinData from '../projects/SwipemeinData';
 import GofishData from '../projects/GofishData';
 import FretlessData from '../projects/FretlessData';
 import PuchData from '../projects/PuchData';
+import SoundcloudData from '../projects/SoundcloudData';
 
 class Projects extends Component {
   render() {
@@ -17,6 +18,7 @@ class Projects extends Component {
       GofishData,
       FretlessData,
       PuchData,
+      SoundcloudData,
     ];
 
     const displayProjects = projects.map(project => (

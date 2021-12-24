@@ -12,6 +12,7 @@ import SwipemeinData from './projects/SwipemeinData';
 import GofishData from './projects/GofishData';
 import FretlessData from './projects/FretlessData';
 import PuchData from './projects/PuchData';
+import SoundcloudData from './projects/SoundcloudData';
 
 function App() {
   const projects = [
@@ -19,6 +20,7 @@ function App() {
     GofishData,
     FretlessData,
     PuchData,
+    SoundcloudData,
   ];
   const projectRoutes = projects.map(project => (
     <Route exact={true} path={'/projects/'+project.postLink} key={project.title} render={() => 
