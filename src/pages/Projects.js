@@ -15,12 +15,12 @@ import MazeData from '../projects/MazeData';
 class Projects extends Component {
   render() {
     const projects = [
-      SwipemeinData,
-      GofishData,
-      FretlessData,
       PuchData,
-      SoundcloudData,
       MazeData,
+      SwipemeinData,
+      SoundcloudData,
+      FretlessData,
+      GofishData,
     ];
 
     const displayProjects = projects.map(project => (
