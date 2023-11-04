@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.af53d6de.css",
-    "main.js": "/website/static/js/main.a0cf4483.js",
+    "main.js": "/website/static/js/main.72f88b6a.js",
     "static/media/video.mp4": "/website/static/media/video.a008a8ab1a1900f29742.mp4",
     "static/media/preview.jpg": "/website/static/media/preview.2ec9082c1f9f055419ab.jpg",
     "static/media/bass_before.jpg": "/website/static/media/bass_before.02d8e6236b97c6025323.jpg",
@@ -36,10 +36,10 @@
     "static/media/ChristianScarlettResume2021.pdf": "/website/static/media/ChristianScarlettResume2021.a181717b787deb08a641.pdf",
     "index.html": "/website/index.html",
     "main.af53d6de.css.map": "/website/static/css/main.af53d6de.css.map",
-    "main.a0cf4483.js.map": "/website/static/js/main.a0cf4483.js.map"
+    "main.72f88b6a.js.map": "/website/static/js/main.72f88b6a.js.map"
   },
   "entrypoints": [
     "static/css/main.af53d6de.css",
-    "static/js/main.a0cf4483.js"
+    "static/js/main.72f88b6a.js"
   ]
 }
